@@ -43,7 +43,7 @@ public class newJavaFile5 {
         int qtd[] = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15,
                 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26 };
 
-        String string = str.toLowerCase().replaceAll("\\s+", "");
+        String string = str.toLowerCase().replaceAll("\\s+", "").replace(".", "").replace(",", "");
 
         System.out.println(isPanagrama(qtd, string));
     }
