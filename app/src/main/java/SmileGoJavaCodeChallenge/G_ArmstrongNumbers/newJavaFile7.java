@@ -24,16 +24,15 @@ public class newJavaFile7 {
         int resto;
         int i = n;
         String numeros = Integer.toString(i);
-        System.out.println(numeros.length());
 
         while (n != 0) {
             resto = n % 10;
-            System.out.println(resto);
+
             soma = soma + Math.pow(resto, numeros.length());
-            System.out.println(soma);
+
             n = n / 10;
         }
-        System.out.println(soma + " = " + i);
+
         if (soma == i) {
             System.out.println(true);
 
