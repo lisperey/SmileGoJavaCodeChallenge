@@ -23,7 +23,7 @@ public class newJavaFile6 {
 
         Scanner leitor = new Scanner(System.in);
 
-        System.out.println("Digite a seguir o número a ser invertido: ");
+        System.out.println("Digite a seguir o número a ser invertido: " + "\n(OBS: Use ',' no lugar de '.')");
 
         // usar , no lugar de .
         double numero = leitor.nextDouble();
