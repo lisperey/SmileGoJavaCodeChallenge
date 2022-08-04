@@ -26,12 +26,20 @@ public class newJavaFile2 {
 
         String penultimaPalavra = palavras[palavras.length - 2];
 
-        System.out.println(penultimaPalavra);
+        System.out.println("A penultima palavra é: " + penultimaPalavra);
 
         System.out.println("Digite o número da posição da palavra aqui: ");
         int n = leitor.nextInt();
 
-        String posicaoPalavra = palavras[n - 1];
+        while (n > palavras.length) {
+            System.out.println("Oops.. Palavra não encontrada.");
+
+            System.out.println("\nDigite o número da posição da palavra aqui: ");
+            n = leitor.nextInt();
+        }
+        int x = n - 1;
+
+        String posicaoPalavra = palavras[x];
 
         System.out.println(posicaoPalavra);
 
