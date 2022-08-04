@@ -42,12 +42,9 @@ public class newJavaFile4 {
 
         System.out.println("Digite uma palavra: ");
         String s2 = leitor.nextLine();
-        List<String> lista = new ArrayList<String>();
 
         if (isAnagrama(s1, s2)) {
             System.out.print(true);
-            lista.add(s1);
-            lista.add(s2);
 
         } else {
             System.out.print(false);
