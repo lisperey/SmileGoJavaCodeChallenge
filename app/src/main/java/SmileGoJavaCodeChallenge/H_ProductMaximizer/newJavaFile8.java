@@ -37,7 +37,8 @@ public class newJavaFile8 {
             num1 = numeros[x - 2];
             num2 = numeros[x - 1];
         }
-        System.out.println("Número um: " + num1 + "\nNúmeros dois: " + num2 + "\nMaior produto: " + num1 * num2);
+        System.out.println("Maior número da sequência 1: " + num2 + "\nSegundo maior número da sequência 1: " + num1
+                + "\nMaior produto: " + num1 * num2);
 
         Arrays.sort(numerosb);
         int num3, num4;
@@ -53,8 +54,8 @@ public class newJavaFile8 {
             num3 = numerosb[y - 2];
             num4 = numerosb[y - 1];
         }
-        System.out.println("Maior número da sequencia 1: " + num2 + "\nMaior número da sequencia 2: " + num4
-                + "\nProduto: " + num2 * num4);
+        System.out.println("\nMaior número da sequência 1: " + num2 + "\nMaior número da sequência 2: " + num4
+                + "\nProduto das sequências: " + num2 * num4);
 
     }
 }
